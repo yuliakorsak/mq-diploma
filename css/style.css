@@ -130,11 +130,11 @@ body {
 .intro-title {
   max-width: 700px;
   margin: 103px auto 0;
+  font-size: 45px;
+  font-weight: bold;
+  line-height: 1.667;
   text-align: center;
   text-transform: uppercase;
-  font-weight: bold;
-  font-size: 45px;
-  line-height: 1.667;
 }
 
 .main {
@@ -148,29 +148,29 @@ body {
 
 .section-title {
   display: block;
+  color: #0f0d0e;
   font-size: 20px;
   font-weight: bold;
-  color: #0f0d0e;
-  text-transform: uppercase;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .section-title::after {
   display: block;
   height: 3px;
   width: 66px;
+  margin: 10px auto 0 auto;
   border: 0;
   background-color: #e1d9bd;
   content: "";
-  margin: 10px auto 0 auto;
 }
 
 .trends-container {
-  width: 100%;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   gap: 5px;
+  width: 100%;
 }
 
 .trend-card {
@@ -196,10 +196,11 @@ body {
 .trend-content {
   position: absolute;
   bottom: 0;
-  border: 3px solid rgba(181, 159, 91, 0.6);
   box-sizing: border-box;
+  width: 90%;
   padding: 8% 7.8%;
   margin: 4% 5%;
+  border: 3px solid rgba(181, 159, 91, 0.6);
   overflow: hidden;
   z-index: 1;
 }
@@ -212,11 +213,11 @@ body {
 }
 
 .category {
+  margin-right: 19px;
   color: #b59f5b;
   font-size: 14px;
   text-transform: uppercase;
   font-weight: bold;
-  margin-right: 19px;
 }
 
 .category a:hover {
@@ -240,8 +241,8 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  max-width: var(--main-content-width);
   box-sizing: border-box;
+  max-width: var(--main-content-width);
   padding: var(--main-content-padding);
   margin: 64px auto 22px auto;
 }
@@ -337,16 +338,16 @@ body {
 }
 
 .sidebar .section-title {
-  font-size: 14px;
   margin-left: 7px;
   margin-top: 0;
+  font-size: 14px;
 }
 
 .latest-title {
+  color: #0f0d0e;
   font-size: 14px;
   line-height: 1.285;
   font-weight: bold;
-  color: #0f0d0e;
   text-transform: uppercase;
 }
 
@@ -355,11 +356,11 @@ body {
 }
 
 .latest-post {
-  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: start;
+  width: 100%;
   margin: 11px 0;
 }
 
@@ -390,8 +391,8 @@ body {
   position: relative;
   display: block;
   box-sizing: border-box;
-  height: 49px;
   width: 100%;
+  height: 49px;
   padding: 0 18px;
   color: #000000;
   font-size: 13px;
@@ -408,8 +409,8 @@ body {
 }
 
 .field:focus {
-  outline: 0;
   border-bottom: 1px solid #ebe7d7;
+  outline: 0;
 }
 
 .button {
@@ -432,10 +433,10 @@ body {
 }
 
 .search-button {
-  z-index: 1;
   position: absolute;
   right: 0;
   top: 0;
+  z-index: 1;
   width: 48px;
   background-image: url("../svg/search.svg");
   background-size: 18px;
@@ -492,8 +493,8 @@ body {
   width: 100%;
   margin: 0 0 0 -1px;
   padding: 12.5px 1px;
-  font-size: 14px;
   color: #000000;
+  font-size: 14px;
   font-weight: bold;
   border-bottom: 1px solid #eeeeee;
 }
@@ -511,27 +512,27 @@ body {
 }
 
 .shop {
+  box-sizing: border-box;
   width: var(--main-content-width);
   margin: 0 auto 64px;
   padding: var(--main-content-padding);
-  box-sizing: border-box;
 }
 
 .shop-container {
-  width: 100%;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   column-gap: 66px;
   align-items: stretch;
+  width: 100%;
 }
 
 .shop-card {
   display: flex;
   flex-direction: column;
   align-items: center;
-  flex-basis: calc(33.33% - 59px);
   box-sizing: border-box;
+  width: calc(33.33% - 59px);
   margin: 0 23px;
 }
 
@@ -552,10 +553,10 @@ body {
   justify-content: start;
   flex: 1;
   width: 100%;
+  margin: -15px 18px 22px;
   padding: 35px 6px 3px;
   outline: 3px solid rgba(181, 159, 91, 0.6);
   outline-offset: 15px;
-  margin: -15px 18px 22px;
 }
 
 .shop .post-title {
@@ -564,16 +565,16 @@ body {
 
 .shop-wrapper {
   display: flex;
+  justify-content: space-between;
   width: 100%;
   margin: 21px 0 10px;
-  justify-content: space-between;
 }
 
 .price {
-  width: auto;
   display: flex;
   flex-direction: column;
   justify-content: end;
+  width: auto;
   font-weight: bold;
 }
 
@@ -596,16 +597,16 @@ body {
 
 .footer {
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
-  max-width: var(--main-content-width);
+  justify-content: center;
   box-sizing: border-box;
+  max-width: var(--main-content-width);
   margin: 0 auto;
 }
 
 .socials {
-  background-color: #f4f7f6;
   width: 100%;
+  background-color: #f4f7f6;
 }
 
 .social-list {
@@ -617,8 +618,8 @@ body {
 .social-icon {
   display: block;
   margin: 31px 12px 32px 15px;
-  height: 20px;
   width: 20px;
+  height: 20px;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -640,8 +641,8 @@ body {
   display: block;
   margin: 70px 0 40px 10px;
   color: #999999;
-  font-weight: bold;
   font-size: 12px;
+  font-weight: bold;
 }
 
 .popup {
@@ -650,24 +651,22 @@ body {
   top: 0;
   right: 0;
   bottom: 0;
+  z-index: 4;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: rgba(0, 0, 10, 0.6);
-  z-index: 4;
 }
 
 .popup-content {
   position: relative;
-  width: 390px;
-  height: 587px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
-
-  padding: 47px 30px 52px;
   box-sizing: border-box;
+  width: 390px;
+  height: 587px;
+  padding: 47px 30px 52px;
   font-size: 13px;
   background-color: #ffffff;
 }
@@ -687,13 +686,13 @@ body {
 }
 
 .select-field {
+  padding-right: 35px;
+  margin-top: 8px;
   appearance: none;
   background-image: url("../svg/form-arrows.svg");
   background-repeat: no-repeat;
   background-position: right 13px center;
   background-size: auto 17px;
-  padding-right: 35px;
-  margin-top: 8px;
 }
 
 .radiogroup {
@@ -715,7 +714,7 @@ body {
   content: "";
 }
 
-.radiobutton:checked+.radio-text::before {
+.radiobutton:checked + .radio-text::before {
   background-image: url("../svg/form-circle.svg");
 }
 
@@ -737,7 +736,6 @@ body {
   :root {
     --main-content-padding: 0 34px;
     --main-content-width: 100%;
-
   }
 
   .header {
@@ -801,8 +799,8 @@ body {
   }
 
   .inner {
-    margin-top: 50px;
     gap: 35px;
+    margin-top: 50px;
   }
 
   .main {
@@ -848,9 +846,9 @@ body {
   }
 
   .post-title {
+    margin-top: 10px;
     font-size: 17px;
     line-height: 1.29;
-    margin-top: 10px;
   }
 
   .date-author {
@@ -858,7 +856,7 @@ body {
   }
 
   .shop {
-    margin: 39px 0 26px
+    margin: 39px 0 26px;
   }
 
   .shop-container {
@@ -888,9 +886,9 @@ body {
   }
 
   .popup-close {
+    top: -37px;
     width: 27px;
     height: 27px;
-    top: -37px;
   }
 
   .radiogroup {
@@ -903,16 +901,13 @@ body {
     top: 8px;
     width: 26px;
     height: 26px;
-
   }
 }
-
 
 /* ---------------------- Мобильная версия ---------------------- */
 @media (max-width: 641px) {
   :root {
     --main-content-padding: 0 15px;
-
   }
 
   .header {
@@ -964,12 +959,13 @@ body {
 
   @media (orientation: landscape) {
     .trend-card {
-      width: calc(50% - 2px);
+      width: calc(50% - 2.5px);
       height: 247px;
     }
   }
 
   .trend-content {
+    width: 92%;
     margin: 5% 4%;
     padding: 7.4% 5.5%;
   }
@@ -998,9 +994,9 @@ body {
   }
 
   .post-title {
+    margin: 8px 0 16px;
     font-size: 16px;
     line-height: 1.25;
-    margin: 8px 0 16px;
   }
 
   .date-author {
@@ -1024,9 +1020,9 @@ body {
   }
 
   .sidebar .section-title {
-    font-size: 16px;
     margin-left: -4px;
     margin-bottom: 19px;
+    font-size: 16px;
   }
 
   .latest-post {
@@ -1067,7 +1063,7 @@ body {
   }
 
   .shop-img img {
-    aspect-ratio: 1.0;
+    aspect-ratio: 1;
   }
 
   .popup-content {
@@ -1079,5 +1075,4 @@ body {
   .popup-close {
     top: -33px;
   }
-
 }
