@@ -183,19 +183,19 @@ body {
 }
 
 .card1 {
-  background-image: url('../images/trend1.jpg');
+  background-image: url("../images/trend1.jpg");
 }
 
 .card2 {
-  background-image: url('../images/trend2.jpg');
+  background-image: url("../images/trend2.jpg");
 }
 
 .card3 {
-  background-image: url('../images/trend3.jpg');
+  background-image: url("../images/trend3.jpg");
 }
 
 .card4 {
-  background-image: url('../images/trend4.jpg');
+  background-image: url("../images/trend4.jpg");
 }
 
 .trend-card::after {
@@ -280,8 +280,6 @@ body {
   height: auto;
   background-color: #eff6f1;
 }
-
-
 
 .post-title {
   margin-bottom: 29px;
@@ -725,7 +723,7 @@ body {
   content: "";
 }
 
-.radiobutton:checked+.radio-text::before {
+.radiobutton:checked + .radio-text::before {
   background-image: url("../svg/form-circle.svg");
 }
 
